@@ -1,0 +1,230 @@
+// this is an extention for the for the style of the base.scss
+
+
+.body {
+    background: #104547;
+    font-family: Electrolize, sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 60px;
+  }
+  
+.edu-body {
+    background: #823038;
+    font-family: Electrolize, sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 60px;
+  }
+
+ #ham {
+    background: crimson;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 38px 20px 0 34px;
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    left: -3vw;
+    top: -4%;
+    border: 6px solid #000;
+    z-index: 500;
+    opacity: .9;
+    transition: opacity .3s;
+  }
+  
+//   second handburger nav.
+  .sec-ham {
+    background: #4b5358;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 38px 20px 0 34px;
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    left: -3vw;
+    top: -4%;
+    border: 6px solid #000;
+    z-index: 500;
+    opacity: .9;
+    transition: opacity .3s;
+  }
+// third hamburger nav  
+  .third-ham {
+    background: #4b5358;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 38px 20px 0 34px;
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    left: -3vw;
+    top: -4%;
+    border: 6px solid #000;
+    z-index: 500;
+    opacity: .9;
+    transition: opacity .3s;
+  }
+
+  
+
+
+#ham:hover {opacity:1}
+
+#secc-ham:hover {opacity:1}
+
+#ham span {
+  display: block;
+  background: #fff;
+  width: 100%;
+  height: 2px;
+  margin-bottom: 3px;
+  transition: transform .3s;
+}
+
+#sec-ham span {
+  display: block;
+  background: #fff;
+  width: 100%;
+  height: 2px;
+  margin-bottom: 3px;
+  transition: transform .3s;
+}
+
+#third-ham span {
+  display: block;
+  background: #fff;
+  width: 100%;
+  height: 2px;
+  margin-bottom: 3px;
+  transition: transform .3s;
+}
+#tog:checked ~ nav {transform: rotate(-20deg)}
+#tog:checked ~ #ham span {transform: rotate(-90deg)}
+
+#tog:checked ~ nav {transform: rotate(-20deg)}
+#tog:checked ~ #sec-ham span {transform: rotate(-90deg)}
+
+#tog:checked ~ nav {transform: rotate(-20deg)}
+#tog:checked ~ #third-ham span {transform: rotate(-90deg)}
+.sec-nav {
+    background: #4b5358;
+    position: fixed;
+    top: 0;
+    transform: translateX(-278px);
+    width: 278px;
+    height: 830px;
+    padding-top: 115px;
+    margin-top: -10px;
+    box-sizing: border-box;
+    transition: transform .3s, left .3s;
+    overflow: hidden;
+    text-decoration: none;
+    z-index: 99;
+  }
+  
+  .third-nav {
+    background: #823038;
+    position: fixed;
+    top: 0;
+    transform: translateX(-278px);
+    width: 278px;
+    height: 830px;
+    padding-top: 115px;
+    margin-top: -10px;
+    box-sizing: border-box;
+    transition: transform .3s, left .3s;
+    overflow: hidden;
+    text-decoration: none;
+  }
+
+
+  .sec-nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    width: 95%;
+    border-bottom: 1px solid #fff;
+    transition: background .3s;
+    transform: rotate(20deg);
+    position: relative;
+  }
+  
+  .third-nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    width: 95%;
+    border-bottom: 1px solid #fff;
+    transition: background .3s;
+    transform: rotate(20deg);
+    position: relative;
+  }
+  .sec-nav li:last-child a {border-bottom: none}
+
+  .sec-nav a:hover {background: darkred}
+  
+  .third-nav li:last-child a {border-bottom: none}
+
+  .third-nav a:hover {background: darkred}
+
+.sec-nav a:before {
+    content: '';
+    // background: crimson;
+    width: 22px;
+    height: 58px;
+    position: absolute;
+    left: -7%;
+    top: 0px;
+    transition: background .3s;
+    text-decoration: none;
+    
+  }
+  
+  .third-nav a:before {
+    content: '';
+    // background: crimson;
+    width: 22px;
+    height: 58px;
+    position: absolute;
+    left: -7%;
+    top: 0px;
+    transition: background .3s;
+    text-decoration: none;
+    
+  }
+  
+  .name { 
+  
+    font-family: 'Montserrat', sans-serif;
+  
+    font-family: 'Indie Flower', cursive;
+  
+    // border: 2px solid black; 
+  
+  }
+  
+  .cover {
+     overflow: hidden;
+     padding: 50px;
+     
+     font-family: 'Yanone Kaffeesatz', sans-serif;
+  
+  }
+
+  .edu-img {
+      width: 30% ;
+      height: 30%;
+  }

@@ -1,0 +1,9 @@
+.edu-img {
+    display: grid ;
+    grid-gap: 20px ;
+    grid-template-columns: 2fr 1fr ;
+    grid-template-rows: 3fr ;
+    grid-template-areas: 
+    "edu-school" "edu-school"
+    "edu-img"
+}
