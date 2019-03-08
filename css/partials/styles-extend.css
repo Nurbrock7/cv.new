@@ -1,21 +1,21 @@
 /*
-Error: Undefined variable: "$color7".
-        on line 255 of scss/partials/styles-extend.scss
+Error: Undefined variable: "$color1".
+        on line 258 of scss/partials/styles-extend.scss
 
-250:     border: 5px solid black;
-251:     overflow: hidden;
-252:     margin-left: 20%;
-253:     margin-right: 20%;
-254:     border-radius: 10px;
-255:     background-color: $color7;
-256:   }
-257: 
-258:   .sec-edu , 
-259:   .pri-edu,
-260:   .tertiary-edu {
+253:     font-family: 'Srisakdi', cursive;
+254:     letter-spacing: 10px;
+255:     border-top: 2px solid black;
+256:     border-bottom: 2px solid black;
+257:     border-radius: 2px ;
+258:     background-color: $color1;
+259:     color: black;
+260:     border-left-style: solid;
+261:     margin-right: 150px;
+262:     margin-left: 200px;
+263:     border-left-width: 0px;
 
 Backtrace:
-scss/partials/styles-extend.scss:255
+scss/partials/styles-extend.scss:258
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
@@ -69,4 +69,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color7\".\A         on line 255 of scss/partials/styles-extend.scss\A \A 250:     border: 5px solid black;\A 251:     overflow: hidden;\A 252:     margin-left: 20%;\A 253:     margin-right: 20%;\A 254:     border-radius: 10px;\A 255:     background-color: $color7;\A 256:   }\A 257: \A 258:   .sec-edu , \A 259:   .pri-edu,\A 260:   .tertiary-edu {"; }
+  content: "Error: Undefined variable: \"$color1\".\A         on line 258 of scss/partials/styles-extend.scss\A \A 253:     font-family: 'Srisakdi', cursive;\A 254:     letter-spacing: 10px;\A 255:     border-top: 2px solid black;\A 256:     border-bottom: 2px solid black;\A 257:     border-radius: 2px ;\A 258:     background-color: $color1;\A 259:     color: black;\A 260:     border-left-style: solid;\A 261:     margin-right: 150px;\A 262:     margin-left: 200px;\A 263:     border-left-width: 0px;"; }
