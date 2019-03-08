@@ -66,16 +66,17 @@ nav a:before {
   transition: background .3s;
   text-decoration: none; }
 
+ul ol {
+  list-style: circle; }
+
+h4 {
+  text-decoration: underline;
+  font-size: 25px;
+  text-align: center;
+  padding-right: 30px; }
+
 .body {
   background: #104547;
-  font-family: Electrolize, sans-serif;
-  color: #fff;
-  text-align: center;
-  font-size: 20px;
-  padding-top: 60px; }
-
-.edu-body {
-  background: #823038;
   font-family: Electrolize, sans-serif;
   color: #fff;
   text-align: center;
@@ -117,7 +118,7 @@ nav a:before {
   transition: opacity .3s; }
 
 .third-ham {
-  background: #4b5358;
+  background: #4c4c47;
   width: 90px;
   height: 90px;
   border-radius: 50%;
@@ -197,7 +198,7 @@ nav a:before {
   z-index: 99; }
 
 .third-nav {
-  background: #823038;
+  background: #393939;
   position: fixed;
   top: 0;
   transform: translateX(-278px);
@@ -208,7 +209,8 @@ nav a:before {
   box-sizing: border-box;
   transition: transform .3s, left .3s;
   overflow: hidden;
-  text-decoration: none; }
+  text-decoration: none;
+  z-index: 99; }
 
 .sec-nav a {
   text-decoration: none;
@@ -275,8 +277,59 @@ nav a:before {
   padding: 50px;
   font-family: 'Yanone Kaffeesatz', sans-serif; }
 
-.edu-img {
-  width: 30%;
-  height: 30%; }
+.edu-body {
+  background-image: url(../images/education.jpg);
+  background-attachment: fixed;
+  font-family: Electrolize, sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 60px; }
+
+.edu-header {
+  font-family: 'Srisakdi', cursive;
+  letter-spacing: 8px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-radius: 2px;
+  background-color: black;
+  opacity: 0.5;
+  color: white;
+  border-left-style: solid;
+  margin-right: 150px;
+  margin-left: 200px;
+  border-left-width: 0px;
+  border-radius: 20px; }
+
+.school {
+  border: 5px solid black;
+  overflow: hidden;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 10px;
+  background-color: #c2a83e; }
+
+.sec-edu,
+.pri-edu,
+.tertiary-edu {
+  text-align: center;
+  text-decoration: underline solid black;
+  font-size: 30px;
+  letter-spacing: 8px; }
+
+.main-primary {
+  list-style: circle;
+  list-style: black;
+  padding-right: 50px;
+  padding-left: 0px;
+  text-align: center;
+  overflow: hidden; }
+
+.edu-footer {
+  padding-top: 20px;
+  font-size: 25px;
+  background-color: black;
+  opacity: 0.5;
+  margin-top: 20px; }
 
 /*# sourceMappingURL=main.css.map */
