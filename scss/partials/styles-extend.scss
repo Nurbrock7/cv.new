@@ -314,10 +314,10 @@ color: white;
 
 
 
-// stylying of nav bar
+// stylying of nav bar=======
 
 
-// third hamburger nav  
+// forth hamburger nav  
 .forth-ham {
   background: #4c4c47;
   width: 90px;
@@ -399,4 +399,16 @@ color: white;
   .forth-nav a:hover {background: darkred}
 
 
+  // Adding styles of the body of the skills page
+
+  .skills body {
+
+    background-image: url(/images/background-skills.jpg)
+  }
+
+  .html5 {
+    font-size: 50px ;
+    color: #000;
+    overflow: hidden;
+  }
   

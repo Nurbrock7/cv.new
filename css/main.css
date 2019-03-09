@@ -410,4 +410,12 @@ h4 {
 .forth-nav a:hover {
   background: darkred; }
 
+.skills body {
+  background-image: url(/images/background-skills.jpg); }
+
+.html5 {
+  font-size: 50px;
+  color: #000;
+  overflow: hidden; }
+
 /*# sourceMappingURL=main.css.map */
