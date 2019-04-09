@@ -80,7 +80,6 @@ h4 {
   font-family: Electrolize, sans-serif;
   color: #fff;
   text-align: center;
-  font-size: 20px;
   padding-top: 60px; }
 
 #ham {
@@ -195,11 +194,12 @@ h4 {
   left: -7%;
   top: 0px;
   transition: background .3s;
-  text-decoration: none; }
+  text-decoration: none;
+  font-family: 'Dokdo', cursive; }
 
 .name {
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Indie Flower', cursive; }
+  font-family: 'Dokdo', cursive;
+  font-size: 50px; }
 
 .cover {
   overflow: hidden;
@@ -293,13 +293,36 @@ h4 {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   border-radius: 2px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.217);
   color: black;
   border-left-style: solid;
   margin-right: 150px;
   margin-left: 200px;
   border-left-width: 0px;
   border-radius: 20px; }
+
+.cover-img {
+  background-image: url(../images/background-img.jpg); }
+
+#content {
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-left-width: 5px;
+  border-left-style: solid;
+  margin-bottom: 5px;
+  border-right-width: 5px;
+  border-right-style: solid;
+  margin-right: 100px;
+  margin-left: 100px;
+  background-color: #d62246;
+  border-bottom-width: 5px;
+  border-bottom-style: solid !important;
+  border-radius: 20px;
+  border-color: white;
+  font-family: 'Dokdo', cursive;
+  text-transform: capitalize;
+  letter-spacing: 10px;
+  font-size: 50px; }
 
 .school {
   border: 5px solid black;
@@ -428,7 +451,10 @@ h4 {
   background-color: transparent;
   width: 20px;
   height: 20px;
-  padding-right: 20px; }
+  padding-right: 20px;
+  font-size: 10rem;
+  padding-right: 100px;
+  padding-bottom: 50px; }
 
 #list {
   margin: 10px; }
