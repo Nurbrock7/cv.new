@@ -328,6 +328,7 @@
 
 .edu-footer {
   padding-top: 20px;
+  padding-bottom: 20px;
 font-size: 25px;
 background-color: black;
 opacity: 0.5;
@@ -454,9 +455,7 @@ color: white;
 
 }
 
-.work {
-  margin-bottom: 30%;
-}
+
 
 .work ol {
   padding-bottom: 50px;
@@ -478,8 +477,63 @@ color: white;
 }
 
 
+// S K I L L S  P A G E
 
-.work-eperience {
-  margin: 0 auto;
+.work {
+  margin-bottom: 5rem;
+}
+
+
+.main-header-skills {
+
+  font-family: 'Roboto Mono', monospace;
+  font-size: 5rem ;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  border-bottom: 2px solid white;
+  border-radius: 10px;
+  border-width: 30%;
+}
+
+.work-experience {
   overflow: hidden;
+  border: solid 3px white;
+  border-radius: 20px;
+  margin-left: 10rem;
+  margin-right: 160px;
+  padding-top: 50px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  background-color: #cfd4c57a;
+}
+
+.fonts {
+
+  margin-bottom: 8rem;
+  text-align: center;
+  border-top: white solid 2px;
+  border-bottom: white solid 2px;
+  border-radius: 20px;
+  background-color: #cfd4c57a;
+  
+}
+
+.fonts  ol{
+  
+  padding-bottom: 20px;
+}
+
+
+.martin-east {
+  margin : 0 ,auto;
+  overflow: hidden;
+}
+
+
+.ref {
+  margin-left: 10rem;
+  margin-right: 160px;
+  padding-top: 50px;
+  border-left-width: 0px;
+  border-right-width: 0px;
 }
