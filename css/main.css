@@ -446,6 +446,12 @@ h4 {
   font-size: 5rems;
   margin: 0 auto; }
 
+.work {
+  margin-bottom: 30%; }
+
+.work ol {
+  padding-bottom: 50px; }
+
 .fas,
 .fab {
   background-color: transparent;
@@ -458,5 +464,9 @@ h4 {
 
 #list {
   margin: 10px; }
+
+.work-eperience {
+  margin: 0 auto;
+  overflow: hidden; }
 
 /*# sourceMappingURL=main.css.map */

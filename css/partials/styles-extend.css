@@ -369,6 +369,12 @@
   font-size: 5rems;
   margin: 0 auto; }
 
+.work {
+  margin-bottom: 30%; }
+
+.work ol {
+  padding-bottom: 50px; }
+
 .fas,
 .fab {
   background-color: transparent;
@@ -381,5 +387,9 @@
 
 #list {
   margin: 10px; }
+
+.work-eperience {
+  margin: 0 auto;
+  overflow: hidden; }
 
 /*# sourceMappingURL=styles-extend.css.map */
