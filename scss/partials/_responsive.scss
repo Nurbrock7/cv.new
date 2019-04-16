@@ -1,0 +1,43 @@
+// responsive for mobile-----
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    body {
+        background-color: #cfd4c5;
+        letter-spacing: 0px;
+    
+    }
+
+    .name { 
+  
+        font-family:sans-serif;
+        font-size: 10px;
+    }
+
+    .edu-body {
+        background-image: url(../images/education.jpg);
+        background-attachment: fixed; 
+        font-family: Electrolize, sans-serif;
+        color: #fff;
+        text-align: center;
+        font-size: 10px;
+        padding-top: 40px;
+        color: black;
+      }  
+
+      .school {
+        border: 5px solid black;
+        overflow: hidden;
+        margin-left: 20%;
+        margin-right: 20%;
+        border-radius: 10px;
+        background-color: #b8b199;
+      }
+}
+
+
+
