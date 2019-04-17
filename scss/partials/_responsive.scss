@@ -24,7 +24,7 @@
         font-family: Electrolize, sans-serif;
         color: #fff;
         text-align: center;
-        font-size: 10px;
+        font-size: 15px;
         padding-top: 40px;
         color: black;
       }  
@@ -37,6 +37,89 @@
         border-radius: 10px;
         background-color: #b8b199;
       }
+
+      .edu-header {
+        font-family: 'Srisakdi', cursive;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        border-radius: 2px ;
+        background-color: rgba(0, 0, 0, 0.217);
+        color: white;
+        border-left-style: solid;
+        // margin-right: 150px;
+        // margin-left: 200px;
+        border-left-width: 0px;
+        border-radius: 20px;
+        padding-right: 20px;
+    
+    
+      }
+
+
+    #edu{
+        font-size: 20px; 
+        font-weight: bold;
+        color: white;
+        margin-left: 70px;
+        border: none;
+    }
+
+      
+  .sec-edu , 
+  .pri-edu,
+  .tertiary-edu {
+    text-align: center;
+    text-decoration: underline solid black;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+  .edu-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  font-size: 20px;
+  background-color: black;
+  opacity: 0.5;
+  margin-top: 20px;
+  color: white;
+  }
+
+
+
+  
+
+.main-header-skills {
+
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem ;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+    border-width: 50%;
+  }
+
+  .fonts {
+
+    margin-bottom: 8rem;
+    text-align: center;
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+    border-radius: 20px;
+    background-color: #cfd4c57a;
+    
+  }
+
+  .fas,
+.fab {
+  background-color: transparent;
+  width: 10px;
+  height: 10px;
+  padding-right: 20px;
+  font-size: 6rem;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
 }
 
 
